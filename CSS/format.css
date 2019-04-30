@@ -1,0 +1,114 @@
+/* Header */
+
+header h1 {
+    background-color: #594652;
+    font-size: 2em;
+    color: #211D26;
+    padding: .5em .2em;
+}
+
+/* Collapsible */
+
+.center{
+    text-align: center
+}
+
+.collapse-h{
+    font-size: 2em;
+    text-align: center
+}
+
+.p-text{
+    width: 60%;
+    text-align: center;
+    padding: 1% 20%;
+}
+
+.collapsible {
+    border-top: 1px solid #ddd;
+    /*
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+*/
+    background-color: #5F7366;
+    text-align: center;
+    /*  margin: 0.5rem 0 1rem 0;*/
+}
+
+.collapsible-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.5;
+    padding: 1rem;
+    background-color: #5F7366;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.55em;
+    text-align: center
+}
+
+.collapsible-header:focus {
+    outline: 0;
+}
+
+.collapsible-body {
+    display: none;
+    border-bottom: 1px solid #211D26;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2rem;
+    background-color: #94A6A2;
+}
+
+/*
+nav {
+    background-color: #5F7366
+}
+
+nav li{
+    font-size: 1.7em;
+    color:  #211D26;
+}
+*/
+
+/* Main */
+
+.maincontent {
+    background-color: #94A6A2;
+    position: relative
+}
+
+/* Footer */
+
+.Footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #594652;
+    text-align: center;
+    color: #211D26;
+    font-size: 1.2em;
+}
+
+@media only screen and (min-width: 450px)
+{
+    header h1{
+        font-size: 2.3em;
+        padding: .5em .2em
+    }
+    
+    
+}
+
+@media only screen and (min-width: 600px)
+{
+    header h1{
+        font-size: 3em;
+        padding: .5em .2em
+    }
+}
