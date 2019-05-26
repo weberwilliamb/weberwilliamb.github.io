@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="Gallery">
+    <meta name="author" content="William Weber">
+
+<!--
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/format.css">
+-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <h1>Family Gallery</h1>
+        <h3><a href=../index.html>Home</a></h3>
+    </header>
+
+    <main>
+        <h2>Family Gallery!</h2>
+        <div class="carousel carousel-slider" id="demo-carousel-content" data-indicators="true">
+            <a class="carousel-item" href="#one!"><img src="images/brielle.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="images/dadandbri.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="images/myfamilyandmydad.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="images/theboys.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="images/christmaskids.jpg"></a>
+            <a class="carousel-item" href="#six!"><img src="images/extendedfamily.jpg"></a>
+<!--
+            <a class="carousel-item" href="#seven!"><img src="images/"></a>
+            <a class="carousel-item" href="#eight!"><img src="images/"></a>
+            <a class="carousel-item" href="#nine!"><img src="images/"></a>
+            <a class="carousel-item" href="#ten!"><img src="images/"></a>
+            <a class="carousel-item" href="#eleven!"><img src="images/"></a>
+            <a class="carousel-item" href="#twelve!"><img src="images/"></a>
+-->
+
+        </div>
+    </main>
+
+    <footer>
+        <p class="Footer">
+            <a class="footicon" href=mailto:williambweber@student.cascadia.edu><i class="fas fa-envelope"></i></a>
+            <a class="footicon" href=https://www.linkedin.com/in/weberwilliamb><i class="fab fa-linkedin"></i></a>
+            <a href=https://fontawesome.com/license>Font Awesome License</a>
+        </p>
+    </footer>
+    
+    <script src="js/scripts.js">
+        $(document).ready(function() {
+            $('.carousel carousel-slider').carousel({
+                fullWidth:true,
+                indicators:true
+            }).height(600);
+        });
+
+    </script>
+</body>
+
+</html>

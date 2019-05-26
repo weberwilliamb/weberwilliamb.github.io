@@ -1,0 +1,33 @@
+/* Header */
+
+header h1 {
+    text-align: center;
+}
+
+/* Nav */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navbar li{
+    width:  100%;
+    text-align: center;
+    
+    
+}
+
+/* Main */
+
+.maincontent{
+    padding: 43% 15%;
+    text-align: center;
+}
+
+/* Footer */
+
+.footicon{
+    font-size: 50px;
+}

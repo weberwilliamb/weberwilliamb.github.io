@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+</head>
+
+<body style="background-color: firebrick">
+    <div class="container">
+        <h3>My Family</h3>
+        <div class="carousel" id="demo-carousel">
+            <a class="carousel-item" href="#one!"><img src="images/dadandbri.jpg">Me and my girl!</a>
+            <a class="carousel-item" href="#two!"><img src="images/extendedfamily.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="images/theboys.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="images/brielle.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="images/myfamilyandmydad.jpg"></a>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#demo-carousel').carousel({
+                indicators: true
+            }).height(600);
+            //            setInterval(function() {
+            //                $('#demo-carousel').carousel('next');
+            //            }, 2000);
+        });
+
+    </script>
+</body>
+
+</html>
