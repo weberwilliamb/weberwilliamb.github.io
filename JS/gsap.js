@@ -1,0 +1,1 @@
+TweenMax.to(".fas fa-envelope", 5, {rotation:360, scale:0.7});
