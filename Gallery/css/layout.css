@@ -1,0 +1,62 @@
+/* Body */
+
+body {
+    background-image: url(../../Images/wood-3112411.jpg);
+}
+
+.container {
+    background-color: black;
+}
+
+/* Header */
+
+header h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+.familyheader {
+    background-color: black;
+    color: aquamarine;
+    opacity: .5;
+}
+
+/* Nav */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbar li {
+    width: 100%;
+    text-align: center;
+
+
+}
+
+/* Main */
+
+.maincontent {
+    padding: 43% 15%;
+    text-align: center;
+}
+
+.images {
+    border-radius: 25%;
+}
+
+.carousel a {
+    text-align: center;
+}
+
+/* Footer */
+
+.footicon {
+    font-size: 50px;
+}

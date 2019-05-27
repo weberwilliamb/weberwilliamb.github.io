@@ -1,27 +1,33 @@
 /* Header */
 
+header {
+    height: 10%;
+}
+
 header h1 {
     background-color: #594652;
     font-size: 2em;
     color: #211D26;
     padding: .5em .2em;
+    font-family: 'Prompt', sans-serif;
 }
 
 /* Collapsible */
 
-.center{
+.center {
     text-align: center
 }
 
-.collapse-h{
+.collapse-h {
     font-size: 2em;
-    text-align: center
+    text-align: center;
 }
 
-.p-text{
+.p-text {
     width: 60%;
     text-align: center;
     padding: 1% 20%;
+    font-family: 'Amiri', serif;
 }
 
 .collapsible {
@@ -47,6 +53,7 @@ header h1 {
     background-color: #5F7366;
     border-bottom: 1px solid #ddd;
     font-size: 1.55em;
+    font-family: 'Prompt', sans-serif;
     text-align: center
 }
 
@@ -61,6 +68,10 @@ header h1 {
     box-sizing: border-box;
     padding: 2rem;
     background-color: #94A6A2;
+}
+
+svg {
+    
 }
 
 /*
@@ -95,20 +106,18 @@ nav li{
     font-size: 1.2em;
 }
 
-@media only screen and (min-width: 450px)
-{
-    header h1{
+@media only screen and (min-width: 450px) {
+    header h1 {
         font-size: 2.3em;
         padding: .5em .2em
     }
-    
-    
+
+
 }
 
-@media only screen and (min-width: 600px)
-{
-    header h1{
-        font-size: 3em;
+@media only screen and (min-width: 600px) {
+    header h1 {
+        font-size: 2.6em;
         padding: .5em .2em
     }
 }
