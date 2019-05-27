@@ -4,6 +4,10 @@ header h1 {
     text-align: center;
 }
 
+.collapsible-header {
+    text-align: center;
+}
+
 /* Nav */
 
 .navbar {
@@ -30,4 +34,5 @@ header h1 {
 
 .footicon{
     font-size: 50px;
+    margin: 0 2%;
 }
