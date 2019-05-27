@@ -2,10 +2,10 @@
 
 body {
     background-image: url(../../Images/wood-3112411.jpg);
-    background-size: cover;
-    position: absolute;
-    opacity: 0.4;
+}
 
+.container {
+    background-color: black;
 }
 
 /* Header */
