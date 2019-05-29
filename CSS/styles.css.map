@@ -2,8 +2,14 @@
 	"version": 3,
 	"file": "styles.css",
 	"sources": [
-		"../assets/scss/styles.scss"
+		"../assets/scss/styles.scss",
+		"../assets/scss/_header.scss",
+		"../assets/scss/_nav.scss",
+		"../assets/scss/_body.scss",
+		"../assets/scss/_footer.scss",
+		"../assets/scss/_gallery.scss",
+		"../assets/scss/_kids.scss"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,OAAO,GACjB"
+	"mappings": "AAkBA,AAAA,MAAM,CAAC,EAAE,CAAA;EAHL,UAAU,EAAE,MAAM;EAKlB,gBAAgB,EAZX,OAAO;EAaZ,SAAS,EAAE,GAAgB;EAC3B,KAAK,EAfD,OAAO;EAgBX,OAAO,EAAE,SAAS;EAClB,WAAW,EAAE,oBAAoB,GACpC"
 }
