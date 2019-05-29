@@ -1,0 +1,22 @@
+{
+  "name": "sasslab",
+  "description": "sass lab portfolio",
+  "main": "index.html",
+  "authors": [
+    "Willie Weber"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/weberwilliamb/weberwilliamb.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "^5.1.0",
+    "susy": "^3.0.5",
+    "normalize-css": "^8.0.1"
+  }
+}

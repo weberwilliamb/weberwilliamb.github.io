@@ -1,0 +1,26 @@
+@import "header";
+@import "nav";
+@import "body";
+@import "footer";
+@import "gallery";
+@import "kids";
+
+$Black: #211D26;
+$Maroon: #594652;
+$Green: #5F7366;
+$Mint: #94A6A2;
+
+$fontSize: 1.55em;
+
+@mixin centered(){
+    text-align: center;   
+}
+
+header h1{
+    @include centered();
+    background-color: $Maroon;
+    font-size: $fontSize + 0.45;
+    color: $Black;
+    padding: .5em .2em;
+    font-family: 'Prompt', sans-serif;
+}
