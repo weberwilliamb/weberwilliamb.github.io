@@ -6,4 +6,5 @@ header h1 {
   padding: .5em .2em;
   font-family: 'Prompt', sans-serif; }
 
-/*# sourceMappingURL=styles.css.map */
+p {
+  font-size: 14px; }
