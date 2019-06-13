@@ -106,6 +106,10 @@ nav li{
     font-size: 1.2em;
 }
 
+.Footer a {
+    font-size: 24
+}
+
 @media only screen and (min-width: 450px) {
     header h1 {
         font-size: 2.3em;

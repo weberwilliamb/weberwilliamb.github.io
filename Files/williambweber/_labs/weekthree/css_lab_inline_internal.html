@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<title> CSS Lab : William B Weber</title>
+    
+    <style>
+        
+        p { font-family: Georgia, Times, serif; font-size: 12pt}
+        
+        h1 {font-family: Arial, Helvetica, sans-serif; font-size: 1.8em; font-weight: bold; color: #00CC00}
+        
+        ul { list-style-type: none}
+        
+        .rule {font-size: 1.2em; font-weight: bold;}
+        
+        .selector {font-size: 1.2em;font-weight: bold;color: #0033CC}
+        
+        .declaration {font-size: 1.2em; font-weight: bold;color: #CC0099}
+        
+        .property {font-size: 1.2em;font-weight: bold;color: #6633FF}
+        
+        .value {font-size: 1.2em;font-weight: bold; color: #FF6600}
+        
+    </style>
+<meta charset="utf-8"> 
+<meta name= "author" content="William B Weber">
+
+</head>
+
+<body>
+
+<h1>CSS Lab - Example page</h1>
+
+<p>In CSS there are Rules and Style Sheets. A rule is a statement about one stylistic 
+aspect of one or more elements. A style sheet is one or more rules that apply to an HTML document. </p>
+
+<p>Example of a <span class="rule">Rule</span> </p>
+
+<p class="rule">h1 { color: red }</p>
+
+    <p>A Rule rules consists of two parts:<span class="selector"> Selector</span> - that part before the left curly 
+brace, and <span class="declaration">Declaration</span> - that part within the curly braces</p>
+
+    <p><span class="selector">h1</span> <span class="declaration">{ color:red }</span></p>
+
+    <p>A declaration has two parts separated by a colon: <span class="property">Property</span> - that part before 
+        the colon <span class="value">Value</span> - that part after the colon</p>
+
+    <p>h1 { <span class="property">color</span>:<span class="value">red</span> }</p> 
+
+<h2 style="color: #CC0000 ; font-weight: bold">Grouping Selectors</h2>
+<p>Group the selectors into a comma-separated list and only write the declaration</p>
+
+<ul>
+<li>h1 { font-weight: bold }</li>
+<li>h2 { font-weight: bold }</li> 
+<li>h3 { font-weight: bold } becomes:</li> 
+<li>h1, h2, h3 { font-weight: bold } </li>
+</ul>
+
+<h2 style="color: #CC0000 ; font-weight: bold">Grouping Declarations</h2>
+<p>Group the declarations that relate to the same selector into a semicolon-separated list</p>
+
+<ul>
+<li>h1 { color: red } </li>
+<li>h1 ( text-align: center } becomes:</li>
+<li>h1 { color: red; text-align: center; }</li>
+</ul>
+
+</body>
+
+</html>

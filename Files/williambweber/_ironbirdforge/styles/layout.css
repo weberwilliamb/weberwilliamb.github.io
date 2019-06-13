@@ -1,0 +1,59 @@
+/* CSS Layout Document */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header h1 {
+    padding: 5.8%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Navigation */
+
+.navbar {
+    width: 86%;
+    padding: 0 7%;
+}
+
+.navbar li a {
+    width: 13%
+}
+
+.navbar a {
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* Main */
+
+main h2 {
+    text-align: center;
+    padding: 1% 1% 0
+}
+
+main h3 {
+    text-align: center;
+    padding: 1% 40%;
+}
+
+main p {
+    float: inherit;
+    text-align: center;
+    padding: 1% 30% 0;
+}
+
+main ol li {
+    text-align: center;
+    padding: .3em
+}
+
+
+/* Footer */

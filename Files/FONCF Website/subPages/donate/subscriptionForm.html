@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FONCF Subscription Form</title>
+    <!-- CSS Style Sheets -->
+    <link rel="stylesheet" href="../../style/slideshow.css" />
+    <link rel="stylesheet" href="../../style/position.css" />
+    <link rel="stylesheet" href="../../style/forms.css" />
+    <!-- Font Awsome topnav icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Java Script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../../JavaScript/form.js"></script>
+</head>
+
+
+<body>
+
+    <!-- tagline above header -->
+    <div id="tag">
+        <p id="tagLine">Stewards to 64 acres of stunning biodiversity.</p>
+    </div>
+
+    <!-- Logo home link -->
+    <header>
+        <div class="logo">
+            <a href="../../Index.html"><img src="../../pic/foncfLogo.jpg" alt="site Logo" /></a>
+        </div>
+        <div>
+
+        </div>
+    </header>
+
+
+    <!-- TOP Navigation Donate Button -->
+
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn dropbtn1"><i class="fa fa-dollar"></i> Donate
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="donationForm.html"> Give Your Support</a>
+                <a href="forestKeeper.html">Be a Forest Keeper</a>
+                <a href="livingTribute.html">Give a Living Tribute</a>
+                <a href="subscriptionForm.html">Suscribe to FONCF</a>
+            </div>
+        </div>
+
+
+        <!-- TOP Navigation Three Center Buttons -->
+        <div class="navC">
+
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-group"></i> Get Involved
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="index.html">Donate</a>
+                    <a href="../volunteer/index.html">Volunteer</a>
+                    <a href="../events/index.html">Events</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-tree"></i> Learn More
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../history/history.html">History</a>
+                    <a href="../learnMore/contacts.html">Contact</a>
+                    <a href="../learnMore/contacts.html">Directions</a>
+                    <a href="#">Mission</a>
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-graduation-cap"></i> Educate Me
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../education/index.html">Education</a>
+                    <a href="../education/index.html">Public Education</a>
+                    <a href="../education/index.html">Higher Education</a>
+                    <a href="../education/index.html">Research</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- TOP Navigation Volunteer Button -->
+
+        <div class="dropdown">
+            <button class="dropbtn dropbtn2"><i class="fa fa-handshake-o"></i> Volunteer
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="../volunteer/index.html">Volunteer</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+    <!--Subscriber Form -->
+
+    <div class="fk-sb-frm">
+
+        <div class="frm-txt">
+            <h2 id="fc-titl">Become a Member of North Creek Forest Today</h2>
+
+            <p>
+                <b>FONCF Members are integral parts of a community dedicated to maintaining connections with our greatest teacher - the Forest.</b>
+            </p>
+            <p>
+                Your membership supports programs that honor relationships with nature, build a healthy forest preserve, and develop a resilient community that can respond and adapt to our changing climate and world.
+            </p>
+            <p>
+                All Forest Keeper are automatically considered Members.
+            </p>
+            <p>
+                Your membership helps FNCF budding programs bloom!
+            </p>
+            <p>
+                Friends of North Creek Forest relies on the generosity of the community to sustain our programs.
+            </p>
+            <p>
+                <i>To subsrcibe, please fill out and submit the form below.</i>
+            </p>
+        </div>
+
+
+
+        <form action="info@friendsnorthcreekforest.org" method="POST" enctype="multipart/form-data" name="EmailTestForm">
+            <fieldset>
+                <h2 class="hdr-demographics"> Subscription Form</h2>
+                <div class="fields">
+                    <p class="row">
+                        <label for="first-name">First Name:
+                        </label>
+                        <input type="text" id="first-name" name="first_name" class="field-large" required />
+                    </p>
+
+                    <p class="row">
+                        <label for="last-name">Last Name:
+                        </label>
+                        <input type="text" id="last-name" name="last_name" class="field-large" required />
+                    </p>
+
+                    <p class="row">
+                        <label for="street-address">Street Address:
+                        </label>
+                        <input type="text" id="street-address" name="street_address" class="field-large" />
+                        <label for="street-address">Street Address 2:
+                        </label>
+                        <input type="text" id="street-address-2" name="street_address 2" class="field-large" />
+                    </p>
+
+                    <p class="row">
+                        <label for="city">City:
+                        </label>
+                        <input type="text" id="city" name="city" class="field-large" />
+                    </p>
+
+                    <p class="row">
+                        <label for="state">State:
+                        </label>
+                        <input type="text" id="state" name="state" class="field-large" />
+                        <label for="zip-code">Zip Code:
+                        </label>
+                        <input type="text" id="zip-code" name="zip_code" class="field-large" />
+                    </p>
+
+                    <p class="row">
+                        <label for="phone">Phone:
+                        </label>
+                        <input type="text" id="phone" name="phone" class="field-large" placeholder="xxx-xxx-xxxx" pattern="\d{3}-\d{3}-\d{4}" />
+                    </p>
+
+                    <p class="row">
+                        <label for="email">Email:
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="yourname@example.com" class="field-large" required />
+                    </p>
+                </div>
+            </fieldset>
+
+            <fieldset class="radios">
+                <h2>Contribution Amount</h2>
+
+                <p class="row">
+                    <input type="radio" id="family-donation" name="donation" value="family" />
+                    <label for="family-donation">$100.00 - Individual Family</label>
+                </p>
+                <p class="row">
+                    <input type="radio" id="local-organization" name="local" value="organization" />
+                    <label for="local-organization">$250.00 - Organization</label>
+                </p>
+
+                <input type="submit" value="Submit" class="btn" />
+                <input type="reset" value="Reset" class="btn">
+            </fieldset>
+        </form>
+
+
+        <form action="mailto:info@friendsnorthcreekforest.org" method="post" enctype="text/plain">
+            <fieldset>
+                <h2>Send e-mail to FONCF:</h2>
+                <div class="row">
+                    <p class="row">
+                        <label for="name">Name:
+                        </label>
+                        <input type="text" id="name" name="name" class="field-large" required />
+                    </p>
+
+                    <p class="row">
+                        <label for="email">Email:
+                        </label>
+                        <input type="email" id="email2" name="email" placeholder="yourname@example.com" class="field-large" required />
+                    </p>
+
+                    <p class="row">
+                        <label for="comment"> Comment:
+                        </label>
+                        <input type="text" id="comment" name="comment" size="50">
+                    </p>
+                    <input type="submit" value="Send" class="btn" />
+                    <input type="reset" value="Reset" class="btn">
+                </div>
+            </fieldset>
+
+        </form>
+    </div>
+
+    <!-- Mission Statement above footer -->
+
+    <p class="MsSt">To maintain and improve the ecological function of North Creek Forest ​through Education, Stewardship and Conservation in perpetuity.</p>
+
+
+    <footer class="flex-container-footer">
+
+        <div>
+            <p>Address:<br> Friends of North Creek Forest<br> P.O. Box 2053<br> Bothell, WA. 98041-2053</p>
+            <p>Phone:<br> (425)318-8144</p>
+            <p>Email:<br> info@friendsnorthcreekforest.org</p>
+        </div>
+
+        <div class="foot2">
+            <p>Directions:<br> From 405<br> Take Exit 24<br> East on Beardslee<br> Right on 112th Ave NE <br></p>
+            <p><a href="https://www.google.com/maps/place/North+Creek+Forest/@47.7764567,-122.1961764,17z/data=!3m1!4b1!4m5!3m4!1s0x54900ef7edb76225:0xbe3e84003957e27a!8m2!3d47.7764567!4d-122.1939877"><img class="I4" src="../../pic/icon/map.jpg" alt="forest map" style="width:90px;height:115px;border:0;" /></a></p>
+        </div>
+
+        <div class="foot">
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <br>
+            <a href="../FAQ/faq.html">FAQ</a>
+            <br>
+            <a href="../blog/index.html">BLOG</a>
+        </div>
+
+        <div class="foot">
+            <a href="../history/history.html">About</a>
+            <br>
+            <a href="../learnMore/contacts.html">Contact</a>
+            <br>
+            <a href="#">Leadership</a>
+        </div>
+        <p id="tax">
+            Friends of North Creek Forest is a 501(c)3 non-profit corporation. Donations are tax deductible as allowed by law. EIN: 27-5439187.
+        </p>
+    </footer>
+
+
+</body>
+
+</html>

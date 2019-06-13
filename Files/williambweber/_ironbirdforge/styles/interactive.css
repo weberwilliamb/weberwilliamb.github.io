@@ -1,0 +1,49 @@
+/* Header */
+
+/* Navigation */
+
+nav ol li a {
+    cursor: url('../media/hammer.cur'), auto;
+}
+
+/* Content */
+
+.img-slider {
+    width: 90%;
+    height: 600px;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-slider figure img {
+    width: 20%;
+    height: 600px;
+    float: left;
+}
+
+.img-slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0px;
+    
+    animation: ibforge 36s infinite linear;
+}
+
+@keyframes ibforge {
+    0%{left:0%;}
+    15%{left:0%;}
+    20%{left:-100%;}
+    35%{left:-100%;}
+    40%{left:-200%;}
+    60%{left:-200%;}
+    65%{left:-300%;}
+    80%{left:-300%;}
+    85%{left:-400%;}
+    100%{left:-400%;}
+   
+    
+}
+
+/* Footer */

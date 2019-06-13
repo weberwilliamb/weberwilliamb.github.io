@@ -1,0 +1,93 @@
+html 
+
+{ background: #A48623;
+background: -moz-linear-gradient(left, #A48623 0%, #FFFFFF 70%, #8B297F 100%);
+background: -webkit-linear-gradient(left, #A48623 0%, #FFFFFF 70%, #8B297F 100%);
+background: linear-gradient(to right, #A48623 0%, #FFFFFF 70%, #8B297F 100%);}
+
+/* Header */
+
+Header {}
+
+Header h1 {
+        text-align: left;
+        padding-left: 12px;
+        background-color: #333;
+        font-family: Arial;
+        font-size: 36px;
+        font-weight: 400;
+        color: white;
+        }
+
+/* Nav */
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Main */
+
+main  {
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+main p {
+    padding: .4em;
+    text-indent: 35px
+}
+
+main h1 {
+    font: arial;
+    font-size: 24pt;
+    padding: .4em;
+    font-weight: bold;
+}
+
+main h2 {
+    padding: .5em;
+    font: arial;
+    font-size: 22pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main li {text-indent: .5em;
+
+}
+
+.bullets {
+    list-style-type: inherit;
+list-style-position: inside;
+padding-left: 4em;
+padding-top: .5em;
+}
+
+/* Footer */
+
+Footer p {
+    position: fixed; 
+    bottom: 0; 
+    width:100%; 
+    text-align: center; 
+    background-color: #333; 
+    border-style: solid; 
+    border-color: #333;
+    font-family: Arial;
+    font-size: 14px;
+    color: white
+}
+

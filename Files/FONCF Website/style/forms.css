@@ -1,0 +1,127 @@
+/*Forms CSS*/
+
+
+form {
+    border: 1px solid #27343A;
+    align-content: center;
+    margin-top: 1em;
+}
+
+
+fieldset {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding: 0 .625em;
+    width: 100%;
+}
+
+.frm-txt p {
+    font-size: 1em;
+}
+
+
+/*labels that procede form fields*/
+fieldset h2 {
+    color: white;
+    background-color: #96C179;
+    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+    border-radius: 6px;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0px 12px 12px 12px;
+    width: 580px;
+    padding: 0.3em 1em;
+    text-shadow: black 2px 2px 2px;
+    text-transform: uppercase;
+}
+
+fieldset p {
+    /*sets the p elements in the forms except donate form*/
+    font-size: 1em;
+}
+
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    padding: .3em .5em;
+    text-align: right;
+    width: 7em;
+    vertical-align: top;
+}
+
+
+/* labels after checkboxes */
+.checkboxes label {
+    text-align: left;
+    width: 5em;
+
+}
+
+
+/*labels for Radio*/
+.radios {
+    background-color: transparent;
+    position: relative;
+    margin: .2em .2em .2em 1em;
+    display: inline;
+}
+
+.radios .row {
+    margin: 0 0 0 1em;
+}
+
+.radios legend {
+    left: 0;
+    padding: 0 6px;
+    position: absolute;
+    text-align: right;
+    top: 2px;
+    width: 148px;
+}
+
+.radios label {
+    padding-left: 2px;
+    margin-right: 5px;
+    vertical-align: top;
+    text-align: left;
+    width: auto;
+}
+
+
+/* Style the submit Button */
+
+
+.btn {
+    background-color: #da820a;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #333;
+    color: #fff;
+    margin: 12px 0 0 26px;
+    padding: 8px;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+
+
+.formStyle {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.formButton {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.formButton:hover {
+    background-color: #6D778A;
+    color: #FDFDFC;
+}

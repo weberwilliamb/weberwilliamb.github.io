@@ -1,0 +1,152 @@
+/* CSS Formatting Document */
+
+body {
+	color: #000000;
+	background-color: #FFFFFF;
+	font: 12pt Georgia, "Times New Roman", Times, serif;
+    margin: 5px;
+    border-width: thick;
+    border-color: #000;
+    border-style: solid; 
+}
+
+ul {list-style: none;}
+
+/* Links */
+
+a {color: #084048;}
+a:visited {color: #10A7A5;}
+a:hover {color: #C30;}
+
+/* Lists */
+
+dl dt {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #C30;
+    margin: 5pt;
+}
+dl dd {
+    margin-right: 50px;
+    padding-bottom: 25px
+}
+
+/* Header */
+
+Header {
+    padding-left: 250px;
+    background-image: url(../images/przlogo.gif);
+    position: absolute;
+    background-repeat: no-repeat;
+    }
+
+header h1,h2 {
+    font-family: Garamond, serif;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bold
+}
+
+header h2 {
+    font-size: 1.6em;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold
+}
+
+/* Navigation */
+
+nav {
+    font-family: Gil Sans, Arial, Helvetica,sans serif;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-top: 65px;
+}
+
+Nav li {
+    display: inline;
+    padding: .2em 1em;
+    border-left: solid thin #084048;
+    }
+
+#clientNav {
+    font: 0.7em/1.1em Arial, Helvetica, sans-serif;
+    border: thin;
+    border-style: dotted;
+    border-color: black;
+    background-color: #D7EAE4;
+    text-align: center
+}
+
+#clientNav li {
+    display: inline
+}
+/* Content*/
+
+#content {
+    padding: 20px;
+    background-image: url(../images/prz_watermark.gif);
+    background-repeat: no-repeat;
+    background-position: right
+}
+
+#content h1,h2,h3 {font-family: Gil Sans, Arial, Helvetica, sans-serif;}
+   
+#content h1 {font-size: 1.5em;
+            padding-bottom: .6em;
+}
+    
+#content h2 {font-size: 1.3em;
+            padding: .8em 0em;
+}
+    
+#content h3 {font-size: 1.1em;}
+
+.bigger {
+    font-size: 1.1em;
+    padding: 0.5em 0em 0.5em 0em;
+}
+
+.address {white-space: pre;
+        text-align: left
+}
+
+.numerals {list-style-type: upper-roman;
+    padding: .5em 0em .7em 1.1em
+}
+
+.lowercase {list-style-type: lower-alpha;
+    padding: .5em 0em .7em 1.6em
+}
+
+.paddingshift {padding-left: 2em}
+
+#content p {padding: 1em 0em}
+
+#content ul {list-style-type: inherit;
+list-style-position: inside;
+padding-left: 3em;
+padding-top: .5em;}
+
+#content ol {list-style-type: upper-alpha;
+list-style-position: inside;
+padding-left: 3em;
+}
+
+/* Footer */
+
+footer {
+    background-color: #A1D1D1;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.1em;
+    margin: 0px;
+    padding: 0px;
+}
